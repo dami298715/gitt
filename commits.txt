@@ -1,0 +1,23 @@
+commit c5953b2dd3f842e50d100f1e75d526c7be0ac90e
+Author: Damian Palumbo <dami298715@gmail.com>
+Date:   Fri Aug 5 17:22:26 2016 -0300
+
+    masssss
+
+commit 2c6a01601dd6636bdb9a9ec334926a2e67955f95
+Author: Damian Palumbo <dami298715@gmail.com>
+Date:   Fri Aug 5 07:55:14 2016 -0300
+
+    creacion texto nuevo
+
+commit 639b940af577ac027c8f2f682c6313a4720ea76c
+Author: Damian Palumbo <dami298715@gmail.com>
+Date:   Fri Aug 5 07:49:01 2016 -0300
+
+    creacion resumen
+
+commit 4c0d1964ed41c3e15136f68d71af47e11b17e8b0
+Author: Damian Palumbo <dami298715@gmail.com>
+Date:   Fri Aug 5 07:43:39 2016 -0300
+
+    primeros pasos
