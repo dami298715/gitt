@@ -209,4 +209,50 @@ $ git init
 Initialized empty Git repository in F:/proyectos/practicaGIT/.git/
 
 damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        comandos git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git add comandos\ git.txt
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   comandos git.txt
+
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git add -A
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git commit -m "primeros pasos"
+[master (root-commit) 4c0d196] primeros pasos
+ 1 file changed, 212 insertions(+)
+ create mode 100644 comandos git.txt
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
+$ ^C
+
+damian palumbo@DESKTOP-PNDLSLO MINGW64 /f/proyectos/practicaGIT (master)
 $
+
