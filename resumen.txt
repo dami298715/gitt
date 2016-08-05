@@ -17,5 +17,6 @@ $ git log > commits.txt..................genera un txt con loc commits
 git merge help..........................se hace master la rama
 
 
+git branch hola......................creo una rama llamada hola
 
 
