@@ -43,3 +43,5 @@ git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
 git remote -v............................ compobar
 git remote remoce origin.....................para quitarlo
 git push origin master.......................pasa la rama origen a github
+
+rama 1
