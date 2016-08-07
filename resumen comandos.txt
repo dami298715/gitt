@@ -1,51 +1,41 @@
 git status......... indica los cambios realizados
-
 git commit -m "mensaje"........ es para guardar los cambios
-
 git add (dodumento)...... agrega un archivo
 git add -A.............. agrega todo. se hace antes del commit para agregar los cambios
-
 $ git checkout asldkjfaslñdkjf .... lleva al commit
 git log.............................muestra todos los commit
 $ git checkout master .... lleva al ultimo commit
-
 git reset.................. mata los commit
 git reset soft............. no toca el codigo
-
 $ git log > commits.txt..................genera un txt con loc commits
-
 git status......... indica los cambios realizados
-
 git commit -m "mensaje"........ es para guardar los cambios
-
 git add (dodumento)...... agrega un archivo
 git add -A.............. agrega todo. se hace antes del commit para agregar los cambios
-
 $ git checkout asldkjfaslñdkjf .... lleva al commit
-
-
 git log.............................muestra todos los commit
 $ git checkout master .... lleva al ultimo commit
-
 git reset.................. mata los commit
 git reset soft............. no toca el codigo
 
 $ git log > commits.txt..................genera un txt con loc commits
 
-git merge help..........................se hace master la rama
-
-
+RAMAS
+git merge help..........................se hace master la rama help
 git branch hola......................creo una rama llamada hola
 git branch -hola--------------------elimino la rama hola
 
-
+GITHUB
 git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
 git remote -v............................ compobar
 git remote remoce origin.....................para quitarlo
 git push origin master.......................pasa la rama origen a github
+git clone (direccion)........................clona un directorio de github, en la carpeta seleccionada de la pc
 
 -los ISSUE son para informar tareas pendientes en github
 Los MILESTONES son grupos de issues que se aplican a un proyecto, caracteritica o periodo de tiempo
 se puede colocar una fecha maxima para la solucion. luego se coloca el issue dentro del milestone
 -los LABELS son una manera de organizar diferentes tipos de problemas con etiquetas. para facil visualizacion
 -ASSUGNEES es para asignar un issue a algun participante del proyecto
+
+
