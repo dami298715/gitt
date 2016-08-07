@@ -44,4 +44,4 @@ git remote -v............................ compobar
 git remote remoce origin.....................para quitarlo
 git push origin master.......................pasa la rama origen a github
 
-rama 1
+los ISSUE son para informar tareas pendientes en github
