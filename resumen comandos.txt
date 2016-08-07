@@ -30,9 +30,6 @@ $ git checkout master .... lleva al ultimo commit
 git reset.................. mata los commit
 git reset soft............. no toca el codigo
 
-
-git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
-git remote -v............................ compobar
 $ git log > commits.txt..................genera un txt con loc commits
 
 git merge help..........................se hace master la rama
@@ -42,3 +39,7 @@ git branch hola......................creo una rama llamada hola
 git branch -hola--------------------elimino la rama hola
 
 
+git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
+git remote -v............................ compobar
+git remote remoce origin.....................para quitarlo
+git push origin master.......................pasa la rama origen a github
