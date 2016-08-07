@@ -22,12 +22,17 @@ git add (dodumento)...... agrega un archivo
 git add -A.............. agrega todo. se hace antes del commit para agregar los cambios
 
 $ git checkout asldkjfaslñdkjf .... lleva al commit
+
+
 git log.............................muestra todos los commit
 $ git checkout master .... lleva al ultimo commit
 
 git reset.................. mata los commit
 git reset soft............. no toca el codigo
 
+
+git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
+git remote -v............................ compobar
 $ git log > commits.txt..................genera un txt con loc commits
 
 git merge help..........................se hace master la rama
