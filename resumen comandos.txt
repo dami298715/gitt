@@ -44,4 +44,8 @@ git remote -v............................ compobar
 git remote remoce origin.....................para quitarlo
 git push origin master.......................pasa la rama origen a github
 
-los ISSUE son para informar tareas pendientes en github
+-los ISSUE son para informar tareas pendientes en github
+Los MILESTONES son grupos de issues que se aplican a un proyecto, caracteritica o periodo de tiempo
+se puede colocar una fecha maxima para la solucion. luego se coloca el issue dentro del milestone
+-los LABELS son una manera de organizar diferentes tipos de problemas con etiquetas. para facil visualizacion
+-ASSUGNEES es para asignar un issue a algun participante del proyecto
