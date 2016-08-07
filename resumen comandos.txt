@@ -1,3 +1,4 @@
+pwd...................me indica en donde estoy situado
 git status......... indica los cambios realizados
 git commit -m "mensaje"........ es para guardar los cambios
 git add (dodumento)...... agrega un archivo
@@ -50,6 +51,44 @@ git tag v1.0
 
 -git push origin master -f.................forza a que se realize un cambio (sin que hallan cambios)
 
+*******************TRABAJO EN EQUIPO*******************************
+-WORKFLOW...............fujos de trabajo para trabajar en quipo.
+1-se crea una nueva organizacion.
+2-invitara las personar de proyecto.
+3-cambiar los permisos del los participantes, para que puedan editar
+4-trasferir el repositorio del perfil a la nueva organizacion (setting->transfer)
+5-los praticipantes clonan el repositorio(git clone http...)
+
+RAMAS OCULTAS (subir los commits)
+1-git branch -a.............muestra las ramas ocultas
+2-$-git fech origin............bajamos los cambios de github a la rama oculta
+3-$git merge (rama oculta).....fuciona la rama oculta con la master. convinando
+los commit de los demas participantes. aqui convinamos nuestros cambios tambien
+4-git push ogigin master........subo a gib la rama master (los demas tendran que vajar mis cambios)
+
+---para bajar los commits de otros participantes
+1-git remote -v...............muesta las conixiones
+2-git remote add origin httpxxxx.......conectar con el repositorio de github
+3-git fech origin......................para sasar los cambios a la rama oculta
+4-git marge origin/master..............se pasaron los cambios de la rama oculta a la master (ya se tiene los cambios de los demas)
+
+
+--------------los participantes cambian la misma linea
+1-git push origin master........ no lo permite por que no tenemos el codigo actualizado
+2-git fetch origin.........
+3-git merge irigin/master.......aparece un conflicto, (se edito la misma linea)
+4- manual marge.... hay que corregir el conflicto manualmente. git marca los conflictos
+en el docigo. HEAD es el ultimo commit(de otro) y origin/master es lo que hicimos nosotros
+hay q ver cual es el que queda y borrarlo manualmente
+5-git add -A
+6-git commit -m "solucion comflicto"
+7- git push origin master
+8-los otros bajan los combios nuevos
+9-git fetch origin
+10-git merege origin master
+
+
+-----------ptoyectos con terceros--------
 
 
 
