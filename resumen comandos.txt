@@ -38,4 +38,19 @@ se puede colocar una fecha maxima para la solucion. luego se coloca el issue den
 -los LABELS son una manera de organizar diferentes tipos de problemas con etiquetas. para facil visualizacion
 -ASSUGNEES es para asignar un issue a algun participante del proyecto
 
+-Los TAGS son simples puentos especificos en la historia de nuestro proyecto y se usan para 
+marcar alguna version del mismo.
+git puch origin --tags..............sube todas las tags
+-Las TAGS ANOTADAS se almacenan como objetos y tienen informacion
+git tag -a v1.0 -m "mensaje" (codigo sha en caso que no sea referido al ultimo commit)G
+-Las TAGS LIGERAS son con poca informacion
+git tag v1.0
+
+
+
+-git push origin master -f.................forza a que se realize un cambio (sin que hallan cambios)
+
+
+
+
 
