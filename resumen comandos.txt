@@ -88,7 +88,13 @@ hay q ver cual es el que queda y borrarlo manualmente
 10-git merege origin master
 
 
------------ptoyectos con terceros--------
+-----------ptoyectos con terceros (sin ser parte del equipo)--------
+FORK....pasa un repositorio al nuestro en github(no es clone)
+1-Se busca el repositorio al cual se quiere ayudar y se hace clic en FORK
+2-
+
+
+
 
 
 
