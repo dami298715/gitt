@@ -103,6 +103,18 @@ podemos generar un sitio web a partir d e nuestras organizacion o proyecto
 5-el dominio es mobre.github.io
 
 
+*************deployment*********
+llaves SSH sirve para conectarse al servidor sin tener que poner la constraseña a cada rato
+
+ssh-keygen-----------genera una llave ssh localizada en el home
+ls -rf...............ver todos los archivos ocultos
+cd .ssh..........se entra en la carpta para ver la llave publica y la privada
+cat id_rsa.pub..............nos muestra unos caracteres. se copian y se pegna en github->configuracion->ssh
+en titulo se puede poner el dipositivo en uso (notebbok lenovo)... 
+Esto va a permitir realizar los cambios sin que pida la contraseña
+git remote add origin (ssh del proyecto)
+
+
 
 
 
