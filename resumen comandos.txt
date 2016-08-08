@@ -94,6 +94,15 @@ FORK....pasa un repositorio al nuestro en github(no es clone)
 2-
 
 
+**********************github pages************
+podemos generar un sitio web a partir d e nuestras organizacion o proyecto
+1-crear un repositorio nobre.github.io
+2-git clone
+3-codigo
+4-git push
+5-el dominio es mobre.github.io
+
+
 
 
 
