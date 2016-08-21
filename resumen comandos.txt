@@ -3,7 +3,7 @@ git status......... indica los cambios realizados
 git commit -m "mensaje"........ es para guardar los cambios
 git add (dodumento)...... agrega un archivo
 git add -A.............. agrega todo. se hace antes del commit para agregar los cambios
-$ git checkout asldkjfaslñdkjf .... lleva al commit
+$ git checkout asldkjfaslÃ±dkjf .... lleva al commit
 git log.............................muestra todos los commit
 $ git checkout master .... lleva al ultimo commit
 git reset.................. mata los commit
@@ -13,7 +13,7 @@ git status......... indica los cambios realizados
 git commit -m "mensaje"........ es para guardar los cambios
 git add (dodumento)...... agrega un archivo
 git add -A.............. agrega todo. se hace antes del commit para agregar los cambios
-$ git checkout asldkjfaslñdkjf .... lleva al commit
+$ git checkout asldkjfaslÃ±dkjf .... lleva al commit
 git log.............................muestra todos los commit
 $ git checkout master .... lleva al ultimo commit
 git reset.................. mata los commit
@@ -27,11 +27,15 @@ git branch hola......................creo una rama llamada hola
 git branch -hola--------------------elimino la rama hola
 
 GITHUB
-git remote add origin lsdkfjañsldkfj.... para conecta el proyecto a github
+git remote add origin lsdkfjaÃ±sldkfj.... para conecta el proyecto a github
 git remote -v............................ compobar
 git remote remoce origin.....................para quitarlo
 git push origin master.......................pasa la rama origen a github
 git clone (direccion)........................clona un directorio de github, en la carpeta seleccionada de la pc
+$ git pull origin master.....................bajar los cambios des repositorio
+
+
+
 
 -los ISSUE son para informar tareas pendientes en github
 Los MILESTONES son grupos de issues que se aplican a un proyecto, caracteritica o periodo de tiempo
@@ -104,14 +108,14 @@ podemos generar un sitio web a partir d e nuestras organizacion o proyecto
 
 
 *************deployment*********
-llaves SSH sirve para conectarse al servidor sin tener que poner la constraseña a cada rato
+llaves SSH sirve para conectarse al servidor sin tener que poner la constraseÃ±a a cada rato
 
 ssh-keygen-----------genera una llave ssh localizada en el home
 ls -rf...............ver todos los archivos ocultos
 cd .ssh..........se entra en la carpta para ver la llave publica y la privada
 cat id_rsa.pub..............nos muestra unos caracteres. se copian y se pegna en github->configuracion->ssh
 en titulo se puede poner el dipositivo en uso (notebbok lenovo)... 
-Esto va a permitir realizar los cambios sin que pida la contraseña
+Esto va a permitir realizar los cambios sin que pida la contraseÃ±a
 git remote add origin (ssh del proyecto)
 (volver a ver bien https://www.youtube.com/watch?v=Q5kQmlslOwA&list=PL9xYXqvLX2kMUrXTvDY6GI2hgacfy0rId&index=9)
 
