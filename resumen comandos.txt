@@ -121,7 +121,8 @@ git remote add origin (ssh del proyecto)
 
 
 
-
+vuelve a un commit anterior
+"git reset --hard 868b6c97160b1e960cd4542bcfe37159c14afd98"
 
 
 
